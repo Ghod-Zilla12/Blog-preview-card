@@ -1,1 +1,68 @@
+:root { 
+  --bg-blue: #D5E1EF; /* The light blue background */
+  --card-white: #FFFFFF;
+  --text-dark: #1F314F; /* The dark blue for the title */
+  --text-gray: #7D889E; /* The gray for the paragraph */
+}
+
+body {
+  background-color: var(--bg-blue);
+  font-family: 'Outfit', sans-serif; /* Standard font for this challenge */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-weight: 400, 700;
+  font-size(paragraph): 15px;
+}
+
+.qr-card {
+  background-color: var(--card-white);
+  padding: 16px;
+  border-radius: 20px;
+  width: 375px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.qr-image img {
+  width: 100%;
+  border-radius: 10px; /* Gives the QR background rounded corners */
+}
+
+.qr-content {
+  padding: 20px 10px;
+}
+
+.qr-content h1 {
+  color: var(--text-dark);
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+}
+
+.qr-content p {
+  color: var(--text-gray);
+  font-size: 0.95rem;
+  line-height: 1.4;
+  }
+
+.container {
+   flex: 1; 
+    display: flex;             /* Enables the layout engine */
+    justify-content: center;   /* Centers the card horizontally */
+    align-items: center;       /* Centers the card vertically */
+    min-height: 100vh;         /* Makes the container the full height of the screen */
+    width: 100%;
+    padding: 20px;             /* Adds a little "safety" space for mobile screens */
+    box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+    text-align: center;
+    padding: 20px 0; /* Gives it some breathing room from the bottom edge */
+    width: 100%;
+    
 
