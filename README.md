@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: []
+- Live Site URL: [https://ghod-zilla12.github.io/Blog-preview-card/]
 
 ## My process
 
