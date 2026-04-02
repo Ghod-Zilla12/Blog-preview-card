@@ -25,7 +25,7 @@ body {
 
 .card-img {
   height: 150px;
-  background: ('illustration-article.svg') center/cover no-repeat;
+  background: ('/image/illustration-article.svg') center/cover no-repeat;
   margin: 12px;
   border-radius: 12px;
 }
