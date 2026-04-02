@@ -23,11 +23,16 @@ body {
   box-shadow: 8px 8px 0px #000;
 }
 
-.card-img {
-  height: 150px;
-  background: ('/image/illustration-article.svg') center/cover no-repeat;
-  margin: 12px;
-  border-radius: 12px;
+  .card-img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.card-img img {
+  width: 100%;
+  display: block;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .card-content {
