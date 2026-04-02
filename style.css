@@ -1,68 +1,79 @@
 :root { 
-  --bg-blue: #D5E1EF; /* The light blue background */
-  --card-white: #FFFFFF;
-  --text-dark: #1F314F; /* The dark blue for the title */
-  --text-gray: #7D889E; /* The gray for the paragraph */
+  --bg-yellow: #f4c542; /* The yellow background */
+  --card-white: #FFFFFF; 
+  --text-dark: #000
+  --text-dark: #000; /* The dark for the paragraph */
 }
 
 body {
-  background-color: var(--bg-blue);
-  font-family: 'Outfit', sans-serif; /* Standard font for this challenge */
+  background: #f4c542;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
-  font-weight: 400, 700;
-  font-size(paragraph): 15px;
+  font-family: sans-serif;
 }
 
-.qr-card {
-  background-color: var(--card-white);
-  padding: 16px;
+.card {
+  width: 300px;
+  background: #fff;
   border-radius: 20px;
-  width: 375px;
-  text-align: center;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  overflow: hidden;
+  position: relative;
+  box-shadow: 8px 8px 0px #000;
 }
 
-.qr-image img {
-  width: 100%;
-  border-radius: 10px; /* Gives the QR background rounded corners */
+.card-img {
+  height: 150px;
+  background: ('illustration-article.svg') center/cover no-repeat;
+  margin: 12px;
+  border-radius: 12px;
 }
 
-.qr-content {
-  padding: 20px 10px;
+.card-content {
+  padding: 16px;
 }
 
-.qr-content h1 {
-  color: var(--text-dark);
-  font-size: 1.4rem;
-  margin-bottom: 16px;
+
+.tag {
+  background: #f4c542;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
-.qr-content p {
-  color: var(--text-gray);
-  font-size: 0.95rem;
-  line-height: 1.4;
-  }
-
-.container {
-   flex: 1; 
-    display: flex;             /* Enables the layout engine */
-    justify-content: center;   /* Centers the card horizontally */
-    align-items: center;       /* Centers the card vertically */
-    min-height: 100vh;         /* Makes the container the full height of the screen */
-    width: 100%;
-    padding: 20px;             /* Adds a little "safety" space for mobile screens */
-    box-sizing: border-box;
+.date {
+  font-size: 12px;
+  color: #777;
 }
 
-.attribution {
+h2 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.desc {
+  font-size: 14px;
+  color: #555;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+ .attribution {
   font-size: 11px;
-    text-align: center;
-    padding: 20px 0; /* Gives it some breathing room from the bottom edge */
-    width: 100%;
-    
-
+  text-align: center;
+  padding: 20px 0; /* Gives it some breathing room from the bottom edge */
+  width: 100%;
+  }
